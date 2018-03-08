@@ -59,9 +59,13 @@ $( document ).ready(function() {
 	
 });
 
+
 function displayList(){
 
-
+ 
+ 
+ 
+ 
   
 }
 
@@ -72,7 +76,9 @@ function clearList(){
 }
 
 function addSong(){
- 
+ var songName = item.val();
+var artistName = list.val();
+myPlayList.push({title:songName}, {artist:artistName});
   
   
 }
